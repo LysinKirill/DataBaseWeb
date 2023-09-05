@@ -1,0 +1,60 @@
+﻿@model DataBaseWeb.Models.SalesViewModel
+@{
+    ViewData["Title"] = "Sales";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<div class="text-center">
+    <h1 class="display-4">Sales</h1>
+</div>
+
+<style>
+    .iconHover{
+    transition-duration: 0.5s;
+    opacity: 60%;
+    }
+    .iconHover:hover{
+    opacity: 100%;
+    transition-duration: 0.3s;
+    }
+</style>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>BuyerId</th>
+        <th>GoodId</th>
+        <th>GoodCount</th>
+        <th>ShopId</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Sales)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GoodId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GoodCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShopId)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<p style="text-align:left;">
+    <a asp-action="AddEntry" asp-route-tableName="Sales" class="bi bi-plus-square-fill iconHover" style="font-size: 200%; color: rgb(127,255,206)"></a>
+    <span style="float:right;">
+        <a asp-action="DeleteTable" asp-route-tableName="Sales" class="bi bi-trash iconHover" style="font-size: 200%; color: rgba(143,161,189)"></a>
+    </span>
+</p>

@@ -1,0 +1,1 @@
+[{"id":1,"name":"Pencil","shop_id":1,"category":"stationery","description":10},{"id":2,"name":"Bicycle","shop_id":2,"category":"transport","description":300},{"id":3,"name":"Phone","shop_id":2,"category":"Electronics","description":500},{"id":4,"name":"Sofa","shop_id":1,"category":"Furniture","description":499}]

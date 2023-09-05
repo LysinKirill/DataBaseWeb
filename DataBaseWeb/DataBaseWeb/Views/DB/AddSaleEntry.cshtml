@@ -1,0 +1,60 @@
+﻿@model NewVariant.Models.Sale;
+
+@{
+    ViewData["Title"] = "Add sale entry";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+<h1>New sale entry</h1>
+
+<h4 style="margin-top: 5%">Sale</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddSale">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BuyerId" class="control-label"></label>
+                <input asp-for="BuyerId" class="form-control" />
+                <span asp-validation-for="BuyerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GoodId" class="control-label"></label>
+                <input asp-for="GoodId" class="form-control" />
+                <span asp-validation-for="GoodId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GoodCount" class="control-label"></label>
+                <input asp-for="GoodCount" class="form-control" />
+                <span asp-validation-for="GoodCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShopId" class="control-label"></label>
+                <input asp-for="ShopId" class="form-control" />
+                <span asp-validation-for="ShopId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="d-grid gap-2 col-8 mx-auto" style="position: sticky; margin-top: 4%">
+                    <input class="btn btn-primary" type="submit" value="Create">
+                </div>
+            </div>
+            <div class="form-group" style="position: sticky; margin-top: 3%">
+                <div style="text-align: center">
+                    <a asp-action="Sales">Back to Sales <i class="bi bi-arrow-return-left"></i></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseWeb", "DataBaseWeb\DataBaseWeb.csproj", "{D74EF7D5-8E7E-4EE4-AE72-6EC1E8F49F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseLib", "..\DataBaseLib\DataBaseLib\DataBaseLib.csproj", "{FD5F25BF-7854-4C15-BCF6-3DE4D46FD187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74EF7D5-8E7E-4EE4-AE72-6EC1E8F49F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74EF7D5-8E7E-4EE4-AE72-6EC1E8F49F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74EF7D5-8E7E-4EE4-AE72-6EC1E8F49F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74EF7D5-8E7E-4EE4-AE72-6EC1E8F49F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5F25BF-7854-4C15-BCF6-3DE4D46FD187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5F25BF-7854-4C15-BCF6-3DE4D46FD187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5F25BF-7854-4C15-BCF6-3DE4D46FD187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5F25BF-7854-4C15-BCF6-3DE4D46FD187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DataBaseWeb
+build_property.RootNamespace = DataBaseWeb
+build_property.ProjectDir = C:\Users\Xiaomi\Desktop\Test\DataBaseWeb\DataBaseWeb\DataBaseWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Xiaomi\Desktop\Test\DataBaseWeb\DataBaseWeb\DataBaseWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/LongestNameBuyer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xMb25nZXN0TmFtZUJ1eWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/MinimumNumberOfShopsInCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xNaW5pbXVtTnVtYmVyT2ZTaG9wc0luQ291bnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/MinimumSalesCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xNaW5pbXVtU2FsZXNDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/MostExpensiveCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xNb3N0RXhwZW5zaXZlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/MostPopularGoodBuyers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xNb3N0UG9wdWxhckdvb2RCdXllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/OtherCitySales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xPdGhlckNpdHlTYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DataAccess/TotalSalesValue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUFjY2Vzc1xUb3RhbFNhbGVzVmFsdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/AddBuyerEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcQWRkQnV5ZXJFbnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/AddGoodEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcQWRkR29vZEVudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/AddSaleEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcQWRkU2FsZUVudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/AddShopEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcQWRkU2hvcEVudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/Buyers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcQnV5ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/DeleteTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcRGVsZXRlVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/Goods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcR29vZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/Sales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcU2FsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/DB/Shops.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREJcU2hvcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xiaomi/Desktop/Test/DataBaseWeb/DataBaseWeb/DataBaseWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-83lhsbgmt7

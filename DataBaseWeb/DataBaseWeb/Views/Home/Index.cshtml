@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+  <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<style>
+
+.accessBtn{
+    transition-duration: 0.8s;
+    opacity: 35%;
+}
+.accessBtn:hover {
+    transition-duration: 0.3s;
+    opacity: 100%;
+    background-color: rgba(195,252,252,0.2);
+    text-shadow: 5px 5px 4px rgba(85,138,187,0.75);
+}
+</style>
+
+<div class="text-center">
+  <h1 class="display-4" style="font-size: 80px; text-shadow: 3px 3px 3px rgba(85,138,187,0.75);">My Database</h1>
+  
+  
+  <div class="container text-center" style="text-align:center; position: sticky; margin-top: 4%;">
+    <div class="row">
+      <div class="col">
+        <a class="btn btn-outline-success btn-lg" asp-area="" asp-controller="DB" asp-action="Sales" style="width:100%; font-size: 30px; font-family: Castellar,serif">Sales</a>
+      </div>
+      <div class="col">
+        <a class="btn btn-outline-success btn-lg" asp-area="" asp-controller="DB" asp-action="Goods" style="width:100%; font-size: 30px; font-family: Castellar,serif">Goods</a>
+      </div>
+      <div class="col">
+        <a class="btn btn-outline-success btn-lg" asp-area="" asp-controller="DB" asp-action="Shops" style="width:100%; font-size: 30px; font-family: Castellar,serif">Shops</a>
+      </div> 
+      <div class="col">
+        <a class="btn btn-outline-success btn-lg" asp-area="" asp-controller="DB" asp-action="Buyers" style="width:100%; font-size: 30px; font-family: Castellar,serif">Buyers</a>
+      </div>
+    </div>
+    
+    
+    <div style="text-align:center; position: sticky; width: 50%; transform: translateX(50%); margin-top: 2%">
+      <h4 style="text-shadow: 3px 3px 2px rgba(85,138,187,0.4);">Data access</h4>
+      <ul class="list-group list-group-flush" style="position: sticky; margin-top: 15px">
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="LongestNameBuyer" style="text-decoration: none; color: black;">All goods of longest name buyer</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="MostExpensiveCategory" style="text-decoration: none; color: black;">Most expensive good category</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="MinimumSalesCity" style="text-decoration: none; color: black;">Minimum sales city</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="MostPopularGoodBuyers" style="text-decoration: none; color: black;">Most popular good buyers</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="MinimumNumberOfShopsInCountry" style="text-decoration: none; color: black;">Minimum number of shops in country</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="OtherCitySales" style="text-decoration: none; color: black;">Other city sales</a></li>
+        <li class="list-group-item accessBtn"><a asp-controller="DataAccess" asp-action="TotalSalesValue" style="text-decoration: none; color: black;">Total sales value</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</div>
+
+
+
+
+

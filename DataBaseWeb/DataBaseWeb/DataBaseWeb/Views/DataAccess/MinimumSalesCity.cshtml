@@ -1,0 +1,16 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "The city with the minimum number of sales";
+    Layout = "_Layout";
+}
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+<div class="text-center" style="position: sticky; margin-top: 20%">
+    <h3 class="display-4" >The city with the minimum number of sales</h3>
+    <p style="font-size: 35pt">@ViewData["MinimumSalesCity"]</p>
+        
+</div>
